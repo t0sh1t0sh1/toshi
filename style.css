@@ -1,6 +1,7 @@
   /* PC、スマホ共通スタイル */
   body {
     font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+    margin: 0;
   }
   
   p {
@@ -539,13 +540,21 @@
   /*===================
     ミッションページ
     ===================*/
-  /* ミッションのメインビジュアル */
+  .mission-wrap {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 80px auto;
+  }
+
   #mission-main {
-    height: 496px;
+    height: 450px;
     width: 100%;
+    margin-top: 46px;
     background-image: url("images/mission/mission-main.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
+    position: relative;
   }
 
   #mission-title {
@@ -554,7 +563,8 @@
     color: #ffffff;
     height: 496px;
     border-radius: 0 248px 248px 0;
-    position: relative;
+    position: absolute;
+    top: -5%;
   }
 
   #mission-title > h1 {
@@ -581,6 +591,7 @@
   #mission-s2dgs {
     width: 100%;
     margin: 20px;
+    text-align: center;
   }
 
   .mission-h2 {
@@ -638,12 +649,22 @@
   /*===================
     プロダクトページ
     ===================*/
-    #product-main {
-    height: 496px;
+  .product-wrap {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 80px auto;
+  }
+
+  #product-main {
+    height: 450px;
     width: 100%;
+    margin-top: 46px;
+    margin-bottom: 40px;
     background-image: url("images/product/product-main.png");
     background-repeat: no-repeat;
     background-position-y: center;
+    background-size: cover;
+    position: relative;
   }
 
   #product-title {
@@ -652,7 +673,8 @@
     color: #ffffff;
     height: 496px;
     border-radius: 0 248px 248px 0;
-    position: relative;
+    position: absolute;
+    top: -5%;
   }
   #product-title > h1 {
     position: absolute;
@@ -731,47 +753,7 @@
     margin: 0;
   }
 
-
-
-  /*===================
-    プロダクトページ
-    ===================*/
-   #product-main {
-     height: 256px;
-     width: 100%;
-     background-image: url("images/product/product-main.png");
-     background-repeat: no-repeat;
-     background-position-y: center;
-     background-size: auto 208px;
-   }
-   #product-title {
-     background-color: #2710d5;
-     width: 136px;
-     color: #ffffff;
-     height: 256px;
-     border-radius: 0 248px 248px 0;
-     position: relative;
-   }
-   #product-title > h1 {
-     position: absolute;
-     top: 0;
-     left: 20px;
-     font-size: 40px;
-   }
-   #product-title > span {
-     position: absolute;
-     top: 110px;
-     left: 20px;
-     font-size: 18px;
-   }
-   #product-title > div {
-     position: absolute;
-     top: 180px;
-     left: 20px;
-     font-size: 13px;
-   }
 }
-
 
 
 
