@@ -425,6 +425,8 @@
     background-color: #fafafa;
     width: 400px;
     height: 56px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   /* お問い合わせ内容のテキストエリア */
   .contact-textarea {
@@ -437,6 +439,7 @@
     background-color: #fafafa;
     width: 400px;
     height: 200px;
+    padding: 12px;
   }
 
 
